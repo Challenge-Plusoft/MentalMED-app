@@ -14,7 +14,7 @@ export default function Header() {
           <Text style={[styles.name, { fontSize: 32 }]}>Vinícius</Text>
         </View>
         <View style={styles.right}>
-          <AntDesign name="setting" size={55} color="black" />
+          <AntDesign name="setting" size={45} color="black" />
         </View>
       </View>
     )
