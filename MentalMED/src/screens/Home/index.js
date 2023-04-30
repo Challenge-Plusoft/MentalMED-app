@@ -9,6 +9,7 @@ export default function Home() {
     return(
         <View>
             <Header />
+            <Text style={styles.texto}>MentalMED, seu companheiro para te ajudar nas horas mais dificeis</Text>
             <Footer firstIconName="cash" secondIconName="person" thirdIconName="chatbubbles" />
         </View>
     )
