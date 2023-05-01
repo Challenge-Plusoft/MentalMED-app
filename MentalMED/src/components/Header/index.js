@@ -1,10 +1,10 @@
 import React from 'react';
-import { View, Text, Image  } from 'react-native';
+import { View, Text, Image, TouchableOpacity  } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 import styles from './styles';
 import Logo from '../../assets/Logo.png'
 
-export default function Header() {
+export default function Header({ navigation }) {
     return(
         <View style={styles.container}>
         <View style={styles.left}>
@@ -17,11 +17,9 @@ export default function Header() {
           <Text style={[styles.name, { fontSize: 32 }]}>Vinícius</Text>
         </View>
         <View style={styles.right}>
-          <AntDesign 
-            name="setting" 
-            size={45} 
-            color="black" 
-          />
+        <TouchableOpacity onPress={() => navigation.navigate('Config')}>
+            <AntDesign name="setting" size={45} color="black" />
+          </TouchableOpacity>
         </View>
       </View>
     )

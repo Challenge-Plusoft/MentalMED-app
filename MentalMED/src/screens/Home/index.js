@@ -9,10 +9,10 @@ const doctor1 = require("../../assets/med1.jpg");
 const doctor2 = require("../../assets/med2.jpg");
 const doctor3 = require("../../assets/med3.jpg");
 
-export default function Home() {
+export default function Home({ navigation }) {
     return (
         <View style={styles.container}>
-            <Header />
+            <Header navigation={navigation} />
             <Text style={styles.texto}>MentalMED, seu companheiro para te ajudar nas horas mais dificeis</Text>
             <View style={styles.especialista}>
                 <Text style={styles.especialistaTitulo}>Especialista</Text>

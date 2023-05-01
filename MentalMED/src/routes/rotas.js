@@ -1,17 +1,19 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createStackNavigator } from '@react-navigation/stack';
 
-const Tab = createNativeStackNavigator();
+import Home from '../screens/Home';
+import Config from '../screens/Config';
 
-import Home from "../screens/Home"
+const Stack = createStackNavigator();
 
-export default function Rotas() {
+export default function Routes() {
   return (
     <NavigationContainer>
-      <Tab.Navigator>
-      <Tab.Screen name="Home" component={Home} options={{ headerShown: false }} />
-      </Tab.Navigator>
+      <Stack.Navigator>
+        <Stack.Screen name="Home" component={Home}  options={{ headerShown: false }}/>
+        <Stack.Screen name="Config" component={Config} options={{ headerShown: false }}/>
+      </Stack.Navigator>
     </NavigationContainer>
   );
 }
