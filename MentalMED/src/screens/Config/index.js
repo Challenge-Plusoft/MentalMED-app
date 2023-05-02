@@ -16,7 +16,7 @@ export default function Config({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <ButtonBack onPress={() => navigation.goBack()} style={styles.backButton} />
+      <BackButton onPress={() => navigation.goBack()} style={styles.backButton} />
       <Text style={styles.title}>Tema</Text>
       <View style={styles.buttonsContainer}>
         <TouchableOpacity
