@@ -34,7 +34,8 @@ export const styles = (tema) => {
         buttonText: {
             fontSize: 24,
             fontWeight: 'bold',
-            color: '#FFF'
+            color: '#FFF',
+            textAlign: 'center'
         },
     });
 };
