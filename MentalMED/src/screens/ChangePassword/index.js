@@ -17,7 +17,7 @@ export default function ChangePassword({ navigation }){
       <View style={style.content}>
         <Text style={style.title}>Mudar senha</Text>
         <TextInput 
-          style={[style.input, { color: tema.texto }]} 
+          style={style.input} 
           placeholder="Digite a nova senha" 
           placeholderTextColor={temaEscolhido.texto}
           secureTextEntry={true}
