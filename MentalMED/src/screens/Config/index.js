@@ -11,7 +11,7 @@ export default function Config({ navigation }) {
     setTemaAtual(novoTema);
     setTimeout(() => {
       navigation.goBack();
-    }, 500);
+    }, 600);
   };
 
   return (
