@@ -1,7 +1,7 @@
 import React, {useContext} from 'react';
 import { View, Text, Image, TouchableOpacity  } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
-import Logo from '../../assets/Logo.png';
+import Logo from '../../assets/Logo';
 import { styles } from "./styles";
 import { TemaContext } from '../../contexts/TemaContext';
 

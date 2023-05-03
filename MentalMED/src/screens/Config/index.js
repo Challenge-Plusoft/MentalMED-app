@@ -33,7 +33,7 @@ export default function Config({ navigation }) {
         </TouchableOpacity>
       </View>
       <Text style={styles.title}>Senha</Text>
-      <TouchableOpacity style={styles.passwordButton}>
+      <TouchableOpacity style={styles.passwordButton} onPress={() => navigation.navigate('ChangePassword')}>
         <Text style={styles.passwordButtonText}>Mudar Senha</Text>
       </TouchableOpacity>
     </View>

@@ -32,7 +32,7 @@ export function TemaProvider({ children }) {
       value={{
         tema,
         setTemaAtual,
-        temaEscolhido: temas[tema] || temas.escuro, 
+        temaEscolhido: temas[tema] || temas.branco, 
       }}
     >
       {children}
