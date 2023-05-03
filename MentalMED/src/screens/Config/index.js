@@ -16,7 +16,10 @@ export default function Config({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <BackButton onPress={() => navigation.goBack()} style={styles.backButton} />
+      <BackButton 
+        onPress={() => navigation.goBack()} 
+        style={styles.backButton} 
+      />
       <Text style={styles.title}>Tema</Text>
       <View style={styles.buttonsContainer}>
         <TouchableOpacity
@@ -33,7 +36,10 @@ export default function Config({ navigation }) {
         </TouchableOpacity>
       </View>
       <Text style={styles.title}>Senha</Text>
-      <TouchableOpacity style={styles.passwordButton} onPress={() => navigation.navigate('ChangePassword')}>
+      <TouchableOpacity
+        style={styles.passwordButton} 
+        onPress={() => navigation.navigate('ChangePassword')}
+      >
         <Text style={styles.passwordButtonText}>Mudar Senha</Text>
       </TouchableOpacity>
     </View>

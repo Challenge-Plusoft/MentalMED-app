@@ -12,9 +12,21 @@ export default function Routes() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={Home}  options={{ headerShown: false }}/>
-        <Stack.Screen name="Config" component={Config} options={{ headerShown: false }}/>
-        <Stack.Screen name="ChangePassword" component={ChangePassword} options={{ headerShown: false }}/>
+        <Stack.Screen 
+          name="Home" 
+          component={Home} 
+          options={{ headerShown: false }} 
+        />
+        <Stack.Screen 
+          name="Config" 
+          component={Config} 
+          options={{ headerShown: false }} 
+        />
+        <Stack.Screen 
+          name="ChangePassword" 
+          component={ChangePassword} 
+          options={{ headerShown: false }} 
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
