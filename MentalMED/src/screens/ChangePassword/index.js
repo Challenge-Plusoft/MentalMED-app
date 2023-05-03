@@ -20,6 +20,7 @@ export default function ChangePassword({ navigation }){
           style={style.input} 
           placeholder="Digite a nova senha" 
           placeholderTextColor={temaEscolhido.texto}
+          secureTextEntry={true}
         />
         <TouchableOpacity style={style.button}>
           <Text style={style.buttonText}>Mudar senha</Text>
