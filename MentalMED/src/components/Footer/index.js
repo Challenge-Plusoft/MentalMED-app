@@ -11,15 +11,15 @@ export default function Footer({ firstIcon, secondIcon, thirdIcon, firstName, se
   return (
     <View style={style.container}>
       <TouchableOpacity style={style.iconContainer} onPress={navigateToFirst}>
-        <Ionicons name={firstIcon} size={32} color={style.iconColor.color} />
+        <Ionicons name={firstIcon} size={40} color={style.iconColor.color} />
         <Text style={style.text}>{firstName}</Text>
       </TouchableOpacity>
       <TouchableOpacity style={style.iconContainer} onPress={navigateToSecond}>
-        <Ionicons name={secondIcon} size={32} color={style.iconColor.color} />
+        <Ionicons name={secondIcon} size={40} color={style.iconColor.color} />
         <Text style={style.text}>{secondName}</Text>
       </TouchableOpacity>
       <TouchableOpacity style={style.iconContainer} onPress={navigateToThird}>
-        <Ionicons name={thirdIcon} size={32} color={style.iconColor.color} />
+        <Ionicons name={thirdIcon} size={40} color={style.iconColor.color} />
         <Text style={style.text}>{thirdName}</Text>
       </TouchableOpacity>
     </View>

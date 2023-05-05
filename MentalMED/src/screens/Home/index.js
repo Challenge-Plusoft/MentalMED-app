@@ -36,7 +36,7 @@ export default function Home({navigation}) {
           </View>
         </View>
       </View>
-            <Footer firstIcon="cash" firstName="Assinaturas" navigateToFirst={() => navigation.navigate('Services')}  secondIcon="person" thirdIcon="chatbubbles" secondName="Perfil" thirdName="Chat" />
+            <Footer firstIcon="cash" firstName="Serviços" navigateToFirst={() => navigation.navigate('Services')}  secondIcon="person" thirdIcon="chatbubbles" secondName="Perfil" thirdName="Chat" />
         </View>
     )
 }
