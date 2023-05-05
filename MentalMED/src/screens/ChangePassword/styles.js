@@ -21,6 +21,7 @@ export const styles = (tema) => {
             height: 50,
             borderWidth: 2,
             borderColor: tema.texto,
+            color: tema.texto,
             borderRadius: 8,
             padding: 10,
             marginBottom: 20,

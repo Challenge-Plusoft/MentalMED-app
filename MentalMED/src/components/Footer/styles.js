@@ -14,7 +14,7 @@ export const styles = (tema) => {
     iconContainer: {
       flexDirection: 'column',
       alignItems: 'center',
-      marginHorizontal: 10, // adicionado margens laterais para ajustar a posição do texto
+      marginHorizontal: 10, 
     },
     iconColor: {
       color: tema.texto

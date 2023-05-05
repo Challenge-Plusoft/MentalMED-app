@@ -16,7 +16,7 @@ export default function ChangePassword({ navigation }){
       <Header navigation={navigation} />
       <View style={style.content}>
         <Text style={style.title}>Mudar senha</Text>
-        <TextInput style={style.input} placeholder="Digite a nova senha" placeholderTextColor={temaEscolhido.texto} />
+        <TextInput style={style.input} placeholder="Digite a nova senha" placeholderTextColor={temaEscolhido.texto} secureTextEntry={true} />
         <TouchableOpacity style={style.button}>
           <Text style={style.buttonText}>Mudar senha</Text>
         </TouchableOpacity>
