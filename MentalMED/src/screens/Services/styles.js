@@ -25,7 +25,7 @@ export const styles = (tema) => {
       alignItems: 'center'
     },
     listItem: {
-      backgroundColor: tema.fundo,
+      backgroundColor: '#FFF',
       padding: 10,
       paddingHorizontal: 50,
       marginVertical: 5,
@@ -35,7 +35,7 @@ export const styles = (tema) => {
       fontSize: 18,
       fontWeight: 'bold',
       paddingHorizontal: 10,
-      color: tema.texto,
+      color: '#000',
     },
   });
 };
