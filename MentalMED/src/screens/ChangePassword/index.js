@@ -29,6 +29,7 @@ export default function ChangePassword({ navigation }){
       <Footer
         firstIcon="md-home"
         firstName="Home"
+        navigateToFirst={() => navigation.navigate('Home')}
         secondIcon="person"
         secondName="Perfil"
         thirdIcon="chatbubbles"
